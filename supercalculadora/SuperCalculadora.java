@@ -14,8 +14,8 @@ public class SuperCalculadora {
         double absoluto = (double) Math.abs(numero);
         System.out.println("Resto da Divisão por 2: " + restDiv);
         System.out.println("Elevado ao Cubo: " + cub);
-        System.out.println("Raiz Quadrada: " + rQuad);
-        System.out.println("Raiz cúbica: " + rCub) ;
+        System.out.println("Raiz Quadrada: " + String.format("%.3f",rQuad));
+        System.out.println("Raiz cúbica: " + String.format("%.3f",rCub)) ;
         System.out.println("Valor absoluto: " + absoluto);
     }
 }
