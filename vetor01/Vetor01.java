@@ -1,6 +1,6 @@
-package vetorteste;
+package vetor01;
 
-public class VetorTeste {
+public class Vetor01 {
     public static void main(String[] args) {
         int num[] = {3, 2, 5, 1, 4, 10, 11, 5, 4, 22};
         System.out.println(num[2]);
